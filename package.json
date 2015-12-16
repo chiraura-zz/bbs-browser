@@ -1,0 +1,24 @@
+{
+  "name": "bbs-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":  "node_modules/.bin/electron .",
+    "build":  "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiraura/bbs-browser.git"
+  },
+  "author": "chiraura",
+  "license": "Zlib",
+  "bugs": {
+    "url": "https://github.com/chiraura/bbs-browser/issues"
+  },
+  "homepage": "https://github.com/chiraura/bbs-browser#readme",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.36.0"
+  }
+}
